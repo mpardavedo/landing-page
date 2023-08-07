@@ -1,12 +1,5 @@
-*{
-    border: 1px solid red;
-}
-
-
 body{
     margin:0;
-
-    
 }
 
 .header{
@@ -145,4 +138,42 @@ button{
 
 .final-button{
     box-shadow: 1px 0 10px rgb(158, 157, 157);
+}
+
+.information{
+    padding: 35px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.block-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subimage{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #1F2937;
+    border-radius: 15px;
+}
+
+.subtext2{
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    color: #1F2937;
+    text-align: center;
+    
 }
